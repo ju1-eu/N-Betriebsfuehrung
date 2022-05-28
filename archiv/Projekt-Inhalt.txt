@@ -4,115 +4,120 @@
 % ju 28-Mai-2022 Projekt-Inhalt.txt
 % ---------------------------------
 % 
-/Users/jan/daten/kfz-meister/T2-Fachtheorie/Kfz-Elektrik/Folien-Mitschrift/N-Fach-Thema-Vorlage
--rwxr-xr-x@ 1 jan  staff   6,7K 28 Mai 21:04 projekt.sh
--rw-r--r--@ 1 jan  staff   5,9K 28 Mai 21:04 README.md
--rw-r--r--  1 jan  staff   852B 28 Mai 21:01 index.html
--rw-r--r--  1 jan  staff   129B 28 Mai 20:51 git-log.txt
--rw-r--r--@ 1 jan  staff   959B 28 Mai 20:07 Thema-print.tex
+/Users/jan/daten/kfz-meister/T2-Fachtheorie/Betriebsfuehrung/Folien-Mitschrift/N-Betriebsfuehrung
+-rwxr-xr-x@ 1 jan  staff   6,7K 28 Mai 23:03 projekt.sh
+-rw-r--r--@ 1 jan  staff   5,9K 28 Mai 23:03 README.md
+-rw-r--r--  1 jan  staff   112B 28 Mai 21:19 git-log.txt
+-rw-r--r--@ 1 jan  staff   959B 28 Mai 20:07 N-Betriebsfuehrung-print.tex
 -rw-rw-r--@ 1 jan  staff   1,3K 28 Mai 11:58 Makefile
 
 texPandoc:
 total 0
-drwxr-xr-x   2 jan  staff    64B 28 Mai 21:08 .
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+drwxr-xr-x   2 jan  staff    64B 28 Mai 23:07 .
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 
 html:
-total 48
-drwxr-xr-x   8 jan  staff   256B 28 Mai 21:08 .
--rw-r--r--   1 jan  staff   691B 28 Mai 21:08 alle-pics.html
--rw-r--r--   1 jan  staff   691B 28 Mai 21:08 alle-pics.html-e
--rw-r--r--   1 jan  staff   974B 28 Mai 21:08 alle-PDFs.html
--rw-r--r--   1 jan  staff   974B 28 Mai 21:08 alle-PDFs.html-e
--rw-r--r--   1 jan  staff   1,0K 28 Mai 21:08 0x-Thema.html
--rw-r--r--   1 jan  staff   1,0K 28 Mai 21:08 0x-Thema.html-e
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+total 352
+drwxr-xr-x  22 jan  staff   704B 28 Mai 23:07 .
+-rw-r--r--   1 jan  staff   1,9K 28 Mai 23:07 U11-Afa-Loesung.html
+-rw-r--r--   1 jan  staff   1,9K 28 Mai 23:07 U11-Afa-Loesung.html-e
+-rw-r--r--   1 jan  staff   2,8K 28 Mai 23:07 U10-Pruefungsaufgabentraining-A6-Loesung.html
+-rw-r--r--   1 jan  staff   2,8K 28 Mai 23:07 U10-Pruefungsaufgabentraining-A6-Loesung.html-e
+-rw-r--r--   1 jan  staff   6,3K 28 Mai 23:07 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.html
+-rw-r--r--   1 jan  staff   6,3K 28 Mai 23:07 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.html-e
+-rw-r--r--   1 jan  staff   2,6K 28 Mai 23:07 U04-Werkstattabrechnung-Arbeitszeit-Loesung.html
+-rw-r--r--   1 jan  staff   2,6K 28 Mai 23:07 U04-Werkstattabrechnung-Arbeitszeit-Loesung.html-e
+-rw-r--r--   1 jan  staff   6,8K 28 Mai 23:07 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.html
+-rw-r--r--   1 jan  staff   6,8K 28 Mai 23:07 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.html-e
+-rw-r--r--   1 jan  staff   1,3K 28 Mai 23:07 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.html
+-rw-r--r--   1 jan  staff   1,3K 28 Mai 23:07 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.html-e
+-rw-r--r--   1 jan  staff   4,8K 28 Mai 23:07 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.html
+-rw-r--r--   1 jan  staff   4,8K 28 Mai 23:07 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.html-e
+-rw-r--r--   1 jan  staff    10K 28 Mai 23:07 03-Betriebsfuehrung.html
+-rw-r--r--   1 jan  staff    10K 28 Mai 23:07 03-Betriebsfuehrung.html-e
+-rw-r--r--   1 jan  staff    11K 28 Mai 23:07 02-Auftragsabwicklung.html
+-rw-r--r--   1 jan  staff    11K 28 Mai 23:07 02-Auftragsabwicklung.html-e
+-rw-r--r--   1 jan  staff    22K 28 Mai 23:07 01-Kostenrechnung.html
+-rw-r--r--   1 jan  staff    22K 28 Mai 23:07 01-Kostenrechnung.html-e
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 
 cms-server:
-total 16
-drwxr-xr-x   4 jan  staff   128B 28 Mai 21:08 .
--rw-r--r--   1 jan  staff    26B 28 Mai 21:08 0x-Thema.html
--rw-r--r--   1 jan  staff    26B 28 Mai 21:08 0x-Thema.html-e
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+total 320
+drwxr-xr-x  22 jan  staff   704B 28 Mai 23:07 .
+-rw-r--r--   1 jan  staff   1,0K 28 Mai 23:07 U11-Afa-Loesung.html
+-rw-r--r--   1 jan  staff   1,0K 28 Mai 23:07 U11-Afa-Loesung.html-e
+-rw-r--r--   1 jan  staff   1,8K 28 Mai 23:07 U10-Pruefungsaufgabentraining-A6-Loesung.html
+-rw-r--r--   1 jan  staff   1,8K 28 Mai 23:07 U10-Pruefungsaufgabentraining-A6-Loesung.html-e
+-rw-r--r--   1 jan  staff   5,2K 28 Mai 23:07 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.html
+-rw-r--r--   1 jan  staff   5,2K 28 Mai 23:07 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.html-e
+-rw-r--r--   1 jan  staff   1,6K 28 Mai 23:07 U04-Werkstattabrechnung-Arbeitszeit-Loesung.html
+-rw-r--r--   1 jan  staff   1,6K 28 Mai 23:07 U04-Werkstattabrechnung-Arbeitszeit-Loesung.html-e
+-rw-r--r--   1 jan  staff   5,7K 28 Mai 23:07 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.html
+-rw-r--r--   1 jan  staff   5,7K 28 Mai 23:07 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.html-e
+-rw-r--r--   1 jan  staff   415B 28 Mai 23:07 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.html
+-rw-r--r--   1 jan  staff   415B 28 Mai 23:07 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.html-e
+-rw-r--r--   1 jan  staff   3,9K 28 Mai 23:07 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.html
+-rw-r--r--   1 jan  staff   3,9K 28 Mai 23:07 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.html-e
+-rw-r--r--   1 jan  staff   8,3K 28 Mai 23:07 03-Betriebsfuehrung.html
+-rw-r--r--   1 jan  staff   8,3K 28 Mai 23:07 03-Betriebsfuehrung.html-e
+-rw-r--r--   1 jan  staff   9,0K 28 Mai 23:07 02-Auftragsabwicklung.html
+-rw-r--r--   1 jan  staff   9,0K 28 Mai 23:07 02-Auftragsabwicklung.html-e
+-rw-r--r--   1 jan  staff    19K 28 Mai 23:07 01-Kostenrechnung.html
+-rw-r--r--   1 jan  staff    19K 28 Mai 23:07 01-Kostenrechnung.html-e
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 
 cms-lokal:
-total 16
-drwxr-xr-x   4 jan  staff   128B 28 Mai 21:08 .
--rw-r--r--   1 jan  staff    26B 28 Mai 21:08 0x-Thema.html
--rw-r--r--   1 jan  staff    26B 28 Mai 21:08 0x-Thema.html-e
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
-
-Artikel:
-total 24
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
-drwxr-xr-x   4 jan  staff   128B 28 Mai 21:01 .
--rw-r--r--   1 jan  staff   2,3K 28 Mai 21:01 0x-N-Keywords-0x-Thema.tex
--rw-r--r--@  1 jan  staff   6,0K 28 Mai 17:06 .DS_Store
+total 320
+drwxr-xr-x  22 jan  staff   704B 28 Mai 23:07 .
+-rw-r--r--   1 jan  staff   1,0K 28 Mai 23:07 U11-Afa-Loesung.html
+-rw-r--r--   1 jan  staff   1,0K 28 Mai 23:07 U11-Afa-Loesung.html-e
+-rw-r--r--   1 jan  staff   1,8K 28 Mai 23:07 U10-Pruefungsaufgabentraining-A6-Loesung.html
+-rw-r--r--   1 jan  staff   1,8K 28 Mai 23:07 U10-Pruefungsaufgabentraining-A6-Loesung.html-e
+-rw-r--r--   1 jan  staff   5,2K 28 Mai 23:07 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.html
+-rw-r--r--   1 jan  staff   5,2K 28 Mai 23:07 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.html-e
+-rw-r--r--   1 jan  staff   1,6K 28 Mai 23:07 U04-Werkstattabrechnung-Arbeitszeit-Loesung.html
+-rw-r--r--   1 jan  staff   1,6K 28 Mai 23:07 U04-Werkstattabrechnung-Arbeitszeit-Loesung.html-e
+-rw-r--r--   1 jan  staff   5,7K 28 Mai 23:07 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.html
+-rw-r--r--   1 jan  staff   5,7K 28 Mai 23:07 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.html-e
+-rw-r--r--   1 jan  staff   415B 28 Mai 23:07 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.html
+-rw-r--r--   1 jan  staff   415B 28 Mai 23:07 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.html-e
+-rw-r--r--   1 jan  staff   3,9K 28 Mai 23:07 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.html
+-rw-r--r--   1 jan  staff   3,9K 28 Mai 23:07 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.html-e
+-rw-r--r--   1 jan  staff   8,3K 28 Mai 23:07 03-Betriebsfuehrung.html
+-rw-r--r--   1 jan  staff   8,3K 28 Mai 23:07 03-Betriebsfuehrung.html-e
+-rw-r--r--   1 jan  staff   9,0K 28 Mai 23:07 02-Auftragsabwicklung.html
+-rw-r--r--   1 jan  staff   9,0K 28 Mai 23:07 02-Auftragsabwicklung.html-e
+-rw-r--r--   1 jan  staff    19K 28 Mai 23:07 01-Kostenrechnung.html
+-rw-r--r--   1 jan  staff    19K 28 Mai 23:07 01-Kostenrechnung.html-e
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 
 img-out:
 total 0
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
-drwxr-xr-x   2 jan  staff    64B 28 Mai 21:01 .
-
-md:
-total 152
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
-drwxr-xr-x@ 11 jan  staff   352B 28 Mai 20:59 .
--rw-r--r--@  1 jan  staff   6,0K 28 Mai 20:59 .DS_Store
--rw-r--r--@  1 jan  staff   1,2K 26 Feb 09:20 0x-Thema.md
--rw-r--r--   1 jan  staff   9,2K  7 Feb 20:03 literatur-kfz.bib
--rw-r--r--@  1 jan  staff   901B 18 Dez 15:34 Makefile
--rw-r--r--   1 jan  staff   582B  6 Jun  2021 _output.yaml
--rw-r--r--   1 jan  staff    13K 13 Jan  2021 zitierstil-number.csl
--rw-r--r--   1 jan  staff   9,9K 13 Jan  2021 literatur.bib
--rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
--rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
-
-images:
-total 120
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
--rw-r--r--@  1 jan  staff    10K 28 Mai 20:58 .DS_Store
-drwxr-xr-x   8 jan  staff   256B 28 Mai 20:58 .
-drwxr-xr-x@  3 jan  staff    96B 28 Mai 20:58 Skizze
-drwxr-xr-x  26 jan  staff   832B 28 Mai 20:48 Logo
-drwxr-xr-x   3 jan  staff    96B  5 Feb 13:17 Video
--rw-r--r--@  1 jan  staff    43K 25 Okt  2021 titelbild.pdf
--rw-r--r--@  1 jan  staff   779B 25 Okt  2021 titelbild.svg
-
-archiv:
-total 576
--rw-r--r--   1 jan  staff   270B 28 Mai 21:08 Projekt-Inhalt.txt
--rw-r--r--   1 jan  staff   1,7K 28 Mai 21:08 inhalt.tex
--rw-r--r--   1 jan  staff   1,2K 28 Mai 21:08 input-img.txt
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
--rw-r--r--   1 jan  staff   241B 28 Mai 21:01 Pics-files.tex
--rw-r--r--   1 jan  staff   531B 28 Mai 21:01 Quellcode-files.tex
-drwxr-xr-x  10 jan  staff   320B 28 Mai 20:51 .
--rw-r--r--   1 jan  staff    20K 28 Mai 20:51 md.zip
--rw-r--r--   1 jan  staff   240K 28 Mai 20:51 content.zip
--rw-r--r--@  1 jan  staff   6,0K 28 Mai 16:01 .DS_Store
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+drwxr-xr-x   2 jan  staff    64B 28 Mai 23:07 .
 
 content:
-total 352
-drwxr-xr-x@  4 jan  staff   128B 28 Mai 21:08 tex
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+total 368
+drwxr-xr-x@ 13 jan  staff   416B 28 Mai 23:07 tex
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+drwxr-xr-x@ 28 jan  staff   896B 28 Mai 23:01 .
+-rw-r--r--   1 jan  staff   4,5K 28 Mai 21:17 abstract.aux
+-rw-r--r--   1 jan  staff   4,4K 28 Mai 21:17 titlepage.aux
+-rw-r--r--   1 jan  staff   4,4K 28 Mai 21:17 meta.aux
+-rw-r--r--   1 jan  staff   4,2K 28 Mai 21:15 praeambel-artikel.aux
+-rw-r--r--@  1 jan  staff   1,3K 28 Mai 21:13 titlepage.tex
+-rw-r--r--@  1 jan  staff   350B 28 Mai 21:12 meta.tex
 -rw-r--r--   1 jan  staff   8,0K 28 Mai 20:59 .DS_Store
--rw-r--r--   1 jan  staff   4,2K 28 Mai 20:46 praeambel-artikel.aux
--rw-r--r--   1 jan  staff   4,5K 28 Mai 20:08 abstract.aux
--rw-r--r--   1 jan  staff   4,4K 28 Mai 20:08 titlepage.aux
--rw-r--r--   1 jan  staff   4,4K 28 Mai 20:08 meta.aux
--rw-r--r--@  1 jan  staff   1,8K 28 Mai 20:07 inhalt.tex
--rw-r--r--@  1 jan  staff   1,3K 28 Mai 20:05 titlepage.tex
 -rw-rw-r--@  1 jan  staff    11K 28 Mai 19:50 hpi-praeambel.sty
 -rw-r--r--   1 jan  staff    13K 28 Mai 19:48 titlepage.log
-drwxr-xr-x@ 27 jan  staff   864B 28 Mai 19:21 .
--rw-r--r--@  1 jan  staff   377B 28 Mai 18:36 meta.tex
 -rw-r--r--@  1 jan  staff   1,3K 28 Mai 18:08 abstract.tex
 drwxr-xr-x   6 jan  staff   192B 28 Mai 16:00 beispiele
 -rw-r--r--@  1 jan  staff   961B 28 Mai 14:20 main-book.tex
 -rw-r--r--@  1 jan  staff   959B 28 Mai 14:20 main-print.tex
 -rw-r--r--   1 jan  staff   6,4K 28 Mai 13:59 Spickzettel-Markdown.tex
 -rw-r--r--   1 jan  staff   8,4K 28 Mai 13:59 README.tex
+-rw-r--r--@  1 jan  staff   2,6K 16 Mai 21:21 01-N-Keywords-Thema.tex
+-rw-r--r--@  1 jan  staff   6,0K 15 Mai 17:22 inhalt.tex
 -rw-r--r--@  1 jan  staff   3,7K 14 Mai 22:45 praeambel-artikel.tex
 -rw-r--r--@  1 jan  staff   1,2K 26 Feb 09:20 0x-Thema.md
 -rw-r--r--@  1 jan  staff   4,7K 26 Feb 09:19 Spickzettel-Markdown.md
@@ -122,9 +127,73 @@ drwxr-xr-x   6 jan  staff   192B 28 Mai 16:00 beispiele
 -rw-r--r--@  1 jan  staff   9,9K 13 Jan  2021 literatur.bib
 -rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
 
+md:
+total 304
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+drwxr-xr-x@ 21 jan  staff   672B 28 Mai 23:00 .
+-rw-r--r--@  1 jan  staff   6,0K 28 Mai 22:59 .DS_Store
+-rw-r--r--@  1 jan  staff    14K 28 Mai 10:41 01-Kostenrechnung.md
+-rw-r--r--@  1 jan  staff   6,8K 28 Mai 10:07 02-Auftragsabwicklung.md
+-rw-r--r--@  1 jan  staff   7,1K 28 Mai 09:59 03-Betriebsfuehrung.md
+-rw-r--r--@  1 jan  staff   1,1K 15 Mai 12:57 U11-Afa-Loesung.md
+-rw-r--r--   1 jan  staff    15K 14 Mai 12:24 U10-Pruefungsaufgabentraining-A6-Loesung.html
+-rw-r--r--@  1 jan  staff   1,5K 14 Mai 12:23 U10-Pruefungsaufgabentraining-A6-Loesung.md
+-rw-r--r--@  1 jan  staff   3,4K  6 Mai 18:22 U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.md
+-rw-r--r--@  1 jan  staff   4,4K 27 Mär 17:37 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.md
+-rw-r--r--@  1 jan  staff   521B 27 Mär 17:37 U02-StVs-WI-KI-Kostenvoranschlag-Loesung.md
+-rw-r--r--@  1 jan  staff   3,0K 27 Mär 17:36 U01-Ersatzteilpreiskalkulation-KI-HSP-KF-Loesung.md
+-rw-r--r--@  1 jan  staff   1,0K 27 Mär 16:44 U04-Werkstattabrechnung-Arbeitszeit-Loesung.md
+-rw-r--r--   1 jan  staff   9,2K  7 Feb 20:03 literatur-kfz.bib
+-rw-r--r--@  1 jan  staff   901B 18 Dez 15:34 Makefile
+-rw-r--r--   1 jan  staff   582B  6 Jun  2021 _output.yaml
+-rw-r--r--   1 jan  staff    13K 13 Jan  2021 zitierstil-number.csl
+-rw-r--r--   1 jan  staff   9,9K 13 Jan  2021 literatur.bib
+-rw-r--r--   1 jan  staff   6,9K 13 Jan  2021 literatur-sport.bib
+-rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
+
+Tabellen:
+total 48
+-rw-r--r--   1 jan  staff   5,5K 28 Mai 23:07 input-PDFs.txt
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+drwxr-xr-x   7 jan  staff   224B 28 Mai 22:59 .
+drwxr-xr-x  44 jan  staff   1,4K 28 Mai 22:59 PDF
+drwxr-xr-x  62 jan  staff   1,9K 28 Mai 21:03 Muster
+-rw-r--r--   1 jan  staff   8,0K 28 Mai 13:47 .DS_Store
+-rw-r--r--@  1 jan  staff   3,9K 15 Mai 17:20 PDFs.tex
+
+archiv:
+total 584
+-rw-r--r--   1 jan  staff   8,3K 28 Mai 23:07 Projekt-Inhalt.txt
+-rw-r--r--   1 jan  staff   2,6K 28 Mai 23:07 inhalt.tex
+-rw-r--r--   1 jan  staff   1,7K 28 Mai 23:07 input-img.txt
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+drwxr-xr-x  10 jan  staff   320B 28 Mai 21:19 .
+-rw-r--r--   1 jan  staff    15K 28 Mai 21:19 md.zip
+-rw-r--r--   1 jan  staff   236K 28 Mai 21:19 content.zip
+-rw-r--r--   1 jan  staff   241B 28 Mai 21:08 Pics-files.tex
+-rw-r--r--   1 jan  staff   531B 28 Mai 21:08 Quellcode-files.tex
+-rw-r--r--@  1 jan  staff   6,0K 28 Mai 16:01 .DS_Store
+
+Artikel:
+total 16
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+-rw-r--r--@  1 jan  staff   6,0K 28 Mai 21:21 .DS_Store
+drwxr-xr-x   3 jan  staff    96B 28 Mai 21:14 .
+
+images:
+total 120
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+-rw-r--r--@  1 jan  staff    10K 28 Mai 23:01 .DS_Store
+drwxr-xr-x@ 12 jan  staff   384B 28 Mai 23:01 Skizze
+drwxr-xr-x   8 jan  staff   256B 28 Mai 20:58 .
+drwxr-xr-x  26 jan  staff   832B 28 Mai 20:48 Logo
+drwxr-xr-x   3 jan  staff    96B  5 Feb 13:17 Video
+-rw-r--r--@  1 jan  staff    43K 25 Okt  2021 titelbild.pdf
+-rw-r--r--@  1 jan  staff   779B 25 Okt  2021 titelbild.svg
+
 code:
 total 72
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 -rw-r--r--@  1 jan  staff   6,0K 28 Mai 16:02 .DS_Store
 drwxr-xr-x  11 jan  staff   352B 28 Mai 16:02 .
 drwxr-xr-x  13 jan  staff   416B 24 Mär 18:43 .ipynb_checkpoints
@@ -138,10 +207,10 @@ drwxr-xr-x  13 jan  staff   416B 24 Mär 18:43 .ipynb_checkpoints
 
 scripteBash:
 total 240
--rwxr-xr-x@  1 jan  staff   2,7K 28 Mai 21:07 gitversionieren.sh
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
--rwxr-xr-x@  1 jan  staff   4,7K 28 Mai 21:05 www.sh
--rwxr-xr-x@  1 jan  staff   3,5K 28 Mai 20:39 artikel-anlegen.sh
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
+-rwxr-xr-x@  1 jan  staff   2,7K 28 Mai 23:05 gitversionieren.sh
+-rwxr-xr-x@  1 jan  staff   3,5K 28 Mai 23:04 artikel-anlegen.sh
+-rwxr-xr-x@  1 jan  staff   4,7K 28 Mai 23:03 www.sh
 -rw-r--r--@  1 jan  staff    10K 28 Mai 14:51 .DS_Store
 drwxr-xr-x  21 jan  staff   672B 28 Mai 14:51 .
 -rwxr-xr-x@  1 jan  staff   6,8K 25 Feb 18:39 sed.sh
@@ -162,24 +231,14 @@ drwxr-xr-x  21 jan  staff   672B 28 Mai 14:51 .
 
 img-in:
 total 24
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 drwxr-xr-x   4 jan  staff   128B 28 Mai 14:45 Messmethodik
 -rw-r--r--@  1 jan  staff    10K 28 Mai 14:43 .DS_Store
 drwxr-xr-x   4 jan  staff   128B 19 Dez 17:24 .
 
-Tabellen:
-total 40
--rw-r--r--   1 jan  staff    34B 28 Mai 21:08 input-PDFs.txt
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
-drwxr-xr-x  62 jan  staff   1,9K 28 Mai 21:03 Muster
-drwxr-xr-x   3 jan  staff    96B 28 Mai 21:02 PDF
--rw-r--r--@  1 jan  staff   394B 28 Mai 16:38 PDFs.tex
--rw-r--r--   1 jan  staff   8,0K 28 Mai 13:47 .DS_Store
-drwxr-xr-x   7 jan  staff   224B 18 Dez 13:37 .
-
 css:
 total 24
-drwxr-xr-x@ 28 jan  staff   896B 28 Mai 21:05 ..
+drwxr-xr-x@ 27 jan  staff   864B 28 Mai 23:07 ..
 -rw-r--r--   1 jan  staff   6,0K 13 Jan  2021 github.css
 drwxr-xr-x   4 jan  staff   128B 13 Jan  2021 .
 -rw-r--r--   1 jan  staff   1,3K 13 Jan  2021 design.css

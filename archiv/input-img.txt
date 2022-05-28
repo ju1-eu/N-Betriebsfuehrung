@@ -10,9 +10,24 @@ ju 28-Mai-2022 input-img.txt
 ![titelbild](images/titelbild.pdf){width=60%}
 
 
-<!--* vgl. abb.-->
+<!--01_Verkaufskalkulation_Skizze vgl. abb.-->
 
-![*](images/Skizze/*.pdf){width=60%}
+![01_Verkaufskalkulation_Skizze](images/Skizze/01_Verkaufskalkulation_Skizze.pdf){width=60%}
+
+
+<!--02_Umsatzerloese_Skizze vgl. abb.-->
+
+![02_Umsatzerloese_Skizze](images/Skizze/02_Umsatzerloese_Skizze.pdf){width=60%}
+
+
+<!--03_Kalkulationsfaktor_Skizze vgl. abb.-->
+
+![03_Kalkulationsfaktor_Skizze](images/Skizze/03_Kalkulationsfaktor_Skizze.pdf){width=60%}
+
+
+<!--Arbeitszeitermittlung vgl. abb.-->
+
+![Arbeitszeitermittlung](images/Skizze/Arbeitszeitermittlung.pdf){width=60%}
 
 
 <!--Logo-Details vgl. abb.-->

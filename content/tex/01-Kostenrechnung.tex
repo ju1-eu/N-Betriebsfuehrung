@@ -1,4 +1,7 @@
-%ju 16-Mai-22 01-Kostenrechnung.tex
+%ju 28-Mai-22 01-Kostenrechnung.tex
+$\to$ \emph{Ziel:} Kenngrößen verbessern (Produktivität,
+Wirtschaftlichkeit, Umsatzrentabilität)
+
 \textbf{Kosten- und Leistungsrechnung} (KLR) $\to$ internes
 Rechnungswesen
 
@@ -8,17 +11,37 @@ vs.
 
 \textbf{Kosten einteilen}
 
-\begin{itemize}
+\begin{enumerate}
 \item
-  Teilkosten: fixe und variable Kosten
+  \textbf{Vollkostenrechnung}
+
+  \begin{itemize}
+  \item
+    Indirekte Kosten (Gemeinkosten, kalkulatorische Kosten)
+  \item
+    Direkte Kosten (Einzelkosten)
+  \end{itemize}
 \item
-  Vollkosten: Einzelkosten und Gemeinkosten
-\end{itemize}
+  \textbf{Kostenstellenrechnung} (Verursachergerechte Verteilung der
+  Kosten: Lager, Werkstatt, Vertrieb)
+\item
+  \textbf{Teilkostenrechnung} (fixe Kosten, variable Kosten,
+  Deckungsbeitrag)
+\end{enumerate}
 
 \section{Vollkostenrechnung}\label{vollkostenrechnung}
 
 Vgl. Kostenrechnung Fachbuch S. 79-102
 (\textcite{heiser:2017:betriebsfuhrung}).
+
+\subsection{Kosten der Werkstatt}\label{kosten-der-werkstatt}
+
+\begin{figure}[!ht]% hier: !ht
+\centering
+\includegraphics[width=0.4\textwidth]{images/Skizze/02_Umsatzerloese_Skizze.pdf}
+\caption{Kosten und Erlöse}
+%\label{fig:}%% anpassen
+\end{figure}
 
 \begin{enumerate}
 \item
@@ -27,13 +50,8 @@ Vgl. Kostenrechnung Fachbuch S. 79-102
 
   \begin{itemize}
   \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. Fertigungslöhne, Anschaffungskosten, Fertigungsmaterialien
-      (Ersatzteile)
-    \end{enumerate}
+    \emph{Beispiel:} Fertigungslöhne, Anschaffungskosten,
+    Fertigungsmaterialien (Ersatzteile)
   \item
     $\boxed{\text{FL} = WSL \cdot Flh}$\\
   \item
@@ -45,64 +63,7 @@ Vgl. Kostenrechnung Fachbuch S. 79-102
 
   \begin{itemize}
   \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. Reisekosten, Kfz-Aufwendungen, Abschreibungen,
-      Zinsaufwendungen, Eigenkapital-Verzinsung (kalkulatorisch)
-    \end{enumerate}
-  \item
-    $\boxed{\text{GK} = Seko - EK} \quad \boxed{\text{GK} = \frac{WSL \cdot GKZs}{100}}$\\
-  \end{itemize}
-\item
-  \textbf{Gemeinkostenzuschlagsatz} (GKZs) in \%
-
-  \begin{itemize}
-  \item
-    $\boxed{\text{GKZs} = \frac{GK \cdot 100}{FL}}$\\
-  \end{itemize}
-\item
-  \textbf{Kalkulatorische Kosten} Gemeinkosten, die keine Ausgaben
-  verursachen; aufwandsfremde Kosten
-
-  \begin{itemize}
-  \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. Kalk.-Miete, Kalk.-Abschreibungen, Kalk.-Zinsen, Kalk.-U-Lohn,
-      Kalk.-Wagnisse
-    \end{enumerate}
-  \end{itemize}
-\item
-  \textbf{Gewinn} (GW) in € Einkommen des Unternehmers, Wagnis,
-  Unternehmensrisiko
-
-  \begin{itemize}
-  \item
-    $\boxed{\text{Gewinn} = UE - EK - GK} \quad \boxed{\text{Gewinn/h} = StVs - Seko/h}$
-  \end{itemize}
-\item
-  \textbf{Gewinnzuschlag} (GWZs) in \%
-
-  \begin{itemize}
-  \item
-    $\boxed{\text{GWZs} = \frac{GW \cdot 100}{SeKo}}$
-  \end{itemize}
-\item
-  \textbf{Umsatzerlöse, Erlöse} (UE in EUR), Stundenverrechnungssatz
-  (StVs in EUR/h)
-
-  \begin{itemize}
-  \item
-    Betrag für eine Lesitung = Kostendecken + Gewinn
-  \item
-    $\boxed{UE = EK + GK + GW} \quad \boxed{UE = Seko + GW}$
-    (Selbstkosten + Gewinn)
-  \item
-    $\boxed{StVs = StLs/WSL + GK + GW}$
+    $\boxed{\text{GK} = Seko - EK} \quad \boxed{\text{GK} = \frac{WSL \cdot GKZs}{100}}$
   \end{itemize}
 \item
   \textbf{Selbstkosten} (SeKo)
@@ -115,18 +76,88 @@ Vgl. Kostenrechnung Fachbuch S. 79-102
   \item
     $\boxed{SeKo_{EUR} = UE - GW} \to \boxed{SeKo_\% = 100~\% - UR_\%}$
   \end{itemize}
+\item
+  \textbf{Gewinn} (GW) in €
+
+  \begin{itemize}
+  \item
+    $\boxed{\text{Gewinn} = UE - EK - GK} \quad \boxed{\text{Gewinn/h} = StVs - Seko/h}$
+  \end{itemize}
+\item
+  \textbf{Umsatzerlöse} (UE in EUR), Stundenverrechnungssatz (StVs in
+  EUR/h)
+
+  \begin{itemize}
+  \item
+    Betrag für eine Leistung = Kostendecken + Gewinn
+  \item
+    $\boxed{UE = EK + GK + GW} \quad \boxed{UE = Seko + GW}$
+    (Selbstkosten + Gewinn)
+  \item
+    $\boxed{StVs = StLs/WSL + GK + GW}$
+  \end{itemize}
 \end{enumerate}
 
-\begin{figure}[!ht]% hier: !ht
-\centering
-\includegraphics[width=0.4\textwidth]{images/Skizze/02_Umsatzerloese_Skizze.pdf}
-\caption{Kosten und Erlöse}
-%\label{fig:}%% anpassen
-\end{figure}
+\subsection{Gemeinkosten}\label{gemeinkosten}
+
+\emph{Beispiel:}
+
+\begin{itemize}
+\item
+  Lohn+Gehalt (unproduktiv)
+\item
+  Reisekosten
+\item
+  Kfz (geschäftlich)
+\item
+  Afa
+\item
+  Eigenkapital (EK \% Zins)
+\item
+  kalkulatorische Pacht
+\item
+  Meisterlohn (unproduktiv)
+\item
+  kalkulatorische Lohn (Frau)
+\end{itemize}
+
+\begin{enumerate}
+\item
+  \textbf{Gemeinkostenzuschlagsatz} (GKZs) in \%
+
+  \begin{itemize}
+  \item
+    $\boxed{\text{GKZs} = \frac{GK \cdot 100}{FL}}$
+  \end{itemize}
+\item
+  \textbf{Kalkulatorische Kosten} Gemeinkosten, die keine Ausgaben
+  verursachen; aufwandsfremde Kosten
+
+  \begin{itemize}
+  \item
+    \emph{Beispiel:} kalk.-Miete, kalk.-Abschreibungen, kalk.-Zinsen,
+    kalk.-U-Lohn, kalk.-Wagnisse
+  \end{itemize}
+\item
+  \textbf{Hilfslöhne} entstehen bei Werkstattaufträgen (W-Aufträge)
+
+  \begin{itemize}
+  \item
+    \emph{Beispiel:} Leerlauf, Nacharbeiten, Reparatur von
+    Werkstattfahrzeuge, Urlaub, Feiertage, Wartezeiten
+  \end{itemize}
+\end{enumerate}
+
+\subsection{Gewinn}\label{gewinn}
+
+Einkommen des Unternehmers, Wagnis, Unternehmensrisiko
+
+\textbf{Gewinnzuschlag} (GWZs) in \%
+$\boxed{\text{GWZs} = \frac{GW \cdot 100}{SeKo}}$
 
 \newpage
 
-\subsection{Kosten der Werkstatt}\label{kosten-der-werkstatt}
+\subsection{Fertigungslöhne}\label{fertigungsloehne}
 
 \begin{enumerate}
 \item
@@ -138,12 +169,7 @@ Vgl. Kostenrechnung Fachbuch S. 79-102
   \item
     $\boxed{\text{FL} = WSL \cdot Flh}$
   \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. $90~\%$ Lohnkosten
-    \end{enumerate}
+    \emph{Beispiel:} $90~\%$ Lohnkosten
   \end{itemize}
 \end{enumerate}
 
@@ -152,20 +178,11 @@ $+$
 \begin{enumerate}
 \setcounter{enumi}{1}
 \item
-  \textbf{Hilfslöhne} (HL) >>unproduktiv<<, GK, nicht direkt, entstehen
-  bei Werkstattaufträgen
+  \textbf{Hilfslöhne} (HL) >>unproduktiv<<, GK, nicht direkt
 
   \begin{itemize}
   \item
-    W-Aufträge z. B. Leerlauf, Nacharbeiten, Reparatur von
-    Werkstattfahrzeuge, Urlaub, Feiertage, Wartezeiten
-  \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. $10~\%$ Lohnkosten
-    \end{enumerate}
+    \emph{Beispiel:} $10~\%$ Lohnkosten
   \end{itemize}
 \end{enumerate}
 
@@ -181,12 +198,7 @@ $= 100~\%$
   \item
     Kundenauftrag, externe Aufträge
   \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. Wartung, Kundendienst, Reparatur
-    \end{enumerate}
+    \emph{Beispiel:} Wartung, Kundendienst, Reparatur
   \end{itemize}
 \item
   \textbf{I-Aufträge}
@@ -195,13 +207,8 @@ $= 100~\%$
   \item
     interne Aufträge, innerbetrieblich (andere Abteilung des Betriebs)
   \item
-    \begin{enumerate}
-    \def\labelenumii{\alph{enumii}.}
-    \setcounter{enumii}{25}
-    \item
-      B. Fahrzeugaufbereitung, Gebrauchtwagenreparatur, Überführung,
-      Übergabedurchsicht
-    \end{enumerate}
+    \emph{Beispiel:} Fahrzeugaufbereitung, Gebrauchtwagenreparatur,
+    Überführung, Übergabedurchsicht
   \end{itemize}
 \item
   \textbf{G+K-Aufträge}
@@ -215,29 +222,29 @@ $= 100~\%$
   \end{itemize}
 \end{enumerate}
 
+\newpage
+
 \textbf{Zeitlohn vs.~Leistungslohn}
 
 \begin{enumerate}
 \item
-  \textbf{FL - Zeitlohn} Fertigungslohn, produktive Arbeitszeit,
-  Stundenlohn
+  \textbf{Zeitlohn} Fertigungslohn, produktive Arbeitszeit, Stundenlohn,
+  Tariflohn
 
   \begin{itemize}
   \item
     \textbf{FLh} Fertigungslohnstunden
   \item
-    \textbf{WSL} Werkstattschnittlohn, quer durch die Werkstatt z. B.
-    Lehrling, Geselle
+    \textbf{WSL} Werkstattschnittlohn, quer durch die Werkstatt
+    \emph{Beispiel:} Lehrling, Geselle
 
     \begin{itemize}
     \item
       $\boxed{\text{WSL} = \frac{FL}{Flh}}$
     \end{itemize}
-  \item
-    \textbf{MAZ} Mehrarbeitszuschlag
   \end{itemize}
 \item
-  \textbf{FL - Leistungslohn} Lohn für die erbrachte Leistung
+  \textbf{Leistungslohn} Lohn für die erbrachte Leistung
 
   \begin{itemize}
   \item
@@ -252,32 +259,53 @@ $= 100~\%$
   \item
     \textbf{Mehr-AW} Mehrleistung in AW
     $\boxed{\text{AW} = \text{Ist-AW} - \text{Soll-AW}}$
+  \item
+    \textbf{Vorgabezeiten} Grundlage für Leistungslohn
+
+    \begin{itemize}
+    \item
+      \textbf{ZE} Zeiteinheit (in Min.)
+    \item
+      (StVs / 60 = €/ZE x Min. = Preis (€))
+    \item
+      \textbf{AW} Arbeitswert (in Min.) Richtzeiten, Vorgabezeiten
+    \item
+      \textbf{WF} Werkstattfaktor $\to$ wie viele AW/ZE in einer
+      Stunde? (Soll-Leistung, Mindestleistung) (12 AW/h =
+      $\frac{60}{12}$ alle 5 Min. 1 AW)
+    \item
+      \textbf{Leistungsfaktor} (LF) Ist-Leistung
+
+      \begin{itemize}
+      \item
+        tatsächlich erbrachte Leistung je Stunde
+      \item
+        Leistungsfaktor = Ist-Leistung in AW / Fertigungslohnstunden
+      \item
+        LF = Ist-AW / FLh
+      \end{itemize}
+    \item
+      \textbf{Leistungsgrad} (LG)
+
+      \begin{itemize}
+      \item
+        $\boxed{\text{LG} = \frac{\text{Ist-AW}}{\text{Soll-AW}}}$
+      \item
+        (Ist-Leistung / Soll-Leistung) und (tatsächlich erbrachte
+        Leistung / Mindestleistung)
+      \end{itemize}
+    \item
+      \textbf{Leistungslohnsatz}
+
+      \begin{itemize}
+      \item
+        Leistungslohnsatz = Fertigungslohn / Fertigungslohnstunden
+      \item
+        LLs = FL / FLh
+      \end{itemize}
+    \end{itemize}
   \end{itemize}
 \end{enumerate}
-
-\textbf{Vorgabezeiten} Grundlage für Leistungslohn
-
-\begin{itemize}
-\item
-  \textbf{ZE} Zeiteinheit (in Min.)
-
-  \begin{itemize}
-  \item
-    (StVs / 60 = €/ZE x Min. = Preis (€))
-  \end{itemize}
-\item
-  \textbf{AW} Arbeitswert (in Min.) Richtzeiten, Vorgabezeiten
-\item
-  \textbf{WF} Werkstattfaktor $\to$ wie viele AW/ZE in einer Stunde?
-  (Soll-Leistung, Mindestleistung)
-
-  \begin{itemize}
-  \item
-    (12 AW/h = $\frac{60}{12}$ alle 5 Min. 1 AW)
-  \end{itemize}
-\item
-  \textbf{LF} Leistungsfaktor (Ist-Leistung)
-\end{itemize}
 
 \newpage
 
@@ -296,8 +324,8 @@ $= 100~\%$
 \item
   \textbf{Lohnerlöse} Umsatzerlöse
 \item
-  \textbf{Wirtschaftlichkeit} (WI) wurde Gewinn oder Verlust gemacht z.
-  B. 1,05 \% $\to$ 5 \% mehr
+  \textbf{Wirtschaftlichkeit} (WI) wurde Gewinn oder Verlust gemacht
+  \emph{Beispiel:} 1,05 \% $\to$ 5 \% mehr
 
   \begin{itemize}
   \item
@@ -320,48 +348,20 @@ $= 100~\%$
   \item
     Produktivität = Fertigungslohnstunden x 100 / Arbeitszeit
   \item
-    PR = FLh x 100 / AZ\\
-  \end{itemize}
-\item
-  \textbf{Leistungsfaktor} (LF)
-
-  \begin{itemize}
-  \item
-    tatsächlich erbrachte Leistung je Stunde
-  \item
-    Leistungsfaktor = Ist-Leistung in AW / Fertigungslohnstunden
-  \item
-    LF = Ist-AW / FLh
-  \end{itemize}
-\item
-  \textbf{Leistungsgrad} (LG)
-
-  \begin{itemize}
-  \item
-    $\boxed{\text{LG} = \frac{\text{Ist-AW}}{\text{Soll-AW}}}$
-  \item
-    (Ist-Leistung / Soll-Leistung) und (tatsächlich erbrachte Leistung /
-    Mindestleistung)
-  \end{itemize}
-\item
-  \textbf{Leistungslohnsatz}
-
-  \begin{itemize}
-  \item
-    Leistungslohnsatz = Fertigungslohn / Fertigungslohnstunden
-  \item
-    LLs = FL / FLh
+    PR = FLh x 100 / AZ
   \end{itemize}
 \item
   \textbf{Umsatzrentabilität} (UR) in \%
+
+  \begin{itemize}
+  \item
+    Wie viel Prozent des Umsatzes als Gewinn anfallen
+  \item
+    $\boxed{\text{UR} = \frac{GW \cdot 100}{UE}} \quad \boxed{\text{UR} = \frac{GW/h \cdot 100}{StVs}}$
+  \end{itemize}
 \end{enumerate}
 
-\begin{itemize}
-\item
-  Wie viel Prozent des Umsatzes als Gewinn anfallen
-\item
-  $\boxed{\text{UR} = \frac{GW \cdot 100}{UE}} \quad \boxed{\text{UR} = \frac{GW/h \cdot 100}{StVs}}$
-\end{itemize}
+\newpage
 
 \subsubsection{Kostenindex - Stundenverrechnungssatz - AW-Vs
 (Prüfung)}\label{kostenindex-stundenverrechnungssatz-aw-vs-pruefung}
@@ -372,7 +372,7 @@ $= 100~\%$
 Kunde für eine Fertigungslohnstunde zu bezahlen hat, als der Monteur in
 dieser Stunde verdient. (bezieht sich auf Löhne)
 
-$\boxed{\text{KI} = \frac{\text{Prod. Löhne} + \text{GK} + \text{Gewinn}}{\text{Prod. Löhne}}} \quad$
+$\boxed{\text{KI} = \frac{\text{Prod. Löhne} + \text{GK} + \text{Gewinn}}{\text{Prod. Löhne}}} \quad \boxed{\text{KI} = \frac{\text{FL} + \text{GK} + \text{GW}}{\text{FL}}} \quad$
 $\boxed{\text{KI} = \frac{\text{StVs}}{\text{WSL}}} \quad \boxed{\text{KI} = \frac{\text{UE}}{\text{FL}}}$
 
 \textbf{Stundenverrechnungssatz} Arbeitspreis, der dem Kunden für eine
@@ -392,35 +392,6 @@ Erlös je AW
 
 $\boxed{\text{AW-Vs} = \frac{\text{StVs}}{\text{WF}}} \quad \boxed{\text{AW-Vs} = \frac{\text{WSL} \cdot \text{KI}}{\text{WF}}} \quad \boxed{\text{AW-Vs} = \frac{\text{UE}}{\text{FLh} \cdot \text{WF}}}$
 
-\subsubsection{Reparaturkosten
-berechnen}\label{reparaturkosten-berechnen}
-
-\textbf{Rechnungserstellung - Formvorschriften beachten}
-
-\begin{itemize}
-\item
-  Rechnung schriftlich mit Rechnungsnummer und Leistungsdatum
-\item
-  Kunden- und Fahrzeugdaten wichtige aufführen
-\item
-  Arbeitskreis und Ersatzteilpreise detailliert aufführen
-\item
-  Netto-Rechnungsbetrag, Umsatzsteuer, Altteilesteuer und
-  Brutto-Rechnungsbetrag einzeln aufführen.
-\end{itemize}
-
-\lstset{language=Bash}% C, TeX, Bash, Python 
-\begin{lstlisting}[
-	%caption={}, label={code:}%% anpassen
-]
-  Arbeitspreis      = Flh x StVs
-+ Materialkosten  
-= Reparaturkosten 
-+ Umsatzsteuer        19 % 
-_____________________________________________
-= Rechnungsbetrag                         EUR
-\end{lstlisting}
-
 \newpage
 
 \subsection{Handelswarenkalkulation}\label{handelswarenkalkulation}
@@ -429,7 +400,7 @@ _____________________________________________
 
 \subsubsection{Einkaufskalkulation}\label{einkaufskalkulation}
 
-\lstset{language=Bash}% C, TeX, Bash, Python 
+\lstset{language=Python}% C, TeX, Bash, Python 
 \begin{lstlisting}[
 	%caption={}, label={code:}%% anpassen
 ]
@@ -464,7 +435,7 @@ ________________________________             ______________________
 \subsubsection{Verkaufskalkulation,
 Ersatzteilkalkulation}\label{verkaufskalkulation-ersatzteilkalkulation}
 
-\lstset{language=Bash}% C, TeX, Bash, Python 
+\lstset{language=Python}% C, TeX, Bash, Python 
 \begin{lstlisting}[
 	%caption={}, label={code:}%% anpassen
 ]
@@ -541,7 +512,137 @@ Agenturwarenverkauf}\label{verkauf-von-tauschteilen-und-agenturwarenverkauf}
 
 \textbf{Altteilesteuer} (AT-St) kauft ein Kunde ein Tauschteil und gibt
 dabei sein defektes Teil (Altteil) in Zahlung, fällt Altteilesteuer an.
-$\boxed{LVP \cdot 10~\% \cdot 19~\%}$
+$\boxed{LVP \cdot 10~\% \cdot 19~\%} \quad \boxed{LVP \cdot 0,1 \cdot 0,19}$
 
 \textbf{Agenturwaren} sind Waren, die im Auftrag und auf Rechnung einer
 Fremdfirma verkauft werden (Preise inkl. Gesetzl. Ust.).
+
+\subsubsection{Rechnungserstellung}\label{rechnungserstellung}
+
+Kostenvoranschlag (KVA)
+
+\textbf{Formvorschriften beachten}
+
+\begin{itemize}
+\item
+  Rechnung schriftlich mit Rechnungsnummer und Leistungsdatum
+\item
+  Kunden- und Fahrzeugdaten wichtige aufführen
+\item
+  Arbeitspreis und Ersatzteilpreise detailliert aufführen
+\item
+  Netto-Rechnungsbetrag, Umsatzsteuer, Altteilesteuer und
+  Brutto-Rechnungsbetrag einzeln aufführen.
+\end{itemize}
+
+$\text{AP} = \text{Flh} \cdot \text{StVs} \quad \text{AP} = \text{AW-Vs} \cdot \Sigma \text{AW}$
+
+$\text{AP}_\text{Seko} = \Sigma \text{AW} \cdot \text{Seko}_{AW} \quad \text{Werkstatt AW-Preis} = \Sigma \text{AW} \cdot \text{Seko}_{AW} + \text{GW}$
+
+\lstset{language=Python}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+Pos    Bezeichnung                              AW-Vs x AW           Preis
+_____________________________________________________________________________
+  1
+  2
+  3
+_____________________________________________________________________________
+  Summe AP                                                                EUR
+
+                           EK                                  VP
+                           80 %  20 %     100 % 24 %           124 %
+                           ZEP x Rabatt = LEP + GW                      
+Anzahl      Ersatzteil     (EK x 1,25)    (LEP x 1,24)       E-Preis Et-Preis
+   oder
+Anzahl      Ersatzteil     Rabatt (Kunden)      LVP          E-Preis Et-Preis
+_____________________________________________________________________________
+  1                        10 %                 (Preis x 0,9)
+  1         AT-Teil
+  3
+_____________________________________________________________________________
+  Summe ET                                                                EUR
+
+                                                                     Preis
+_____________________________________________________________________________
+  AP
++ ET
++ Fremdleistung
++ Zubehör
++ Schmierstoffe
+= Reparaturkosten 
++ UST                                           19 % 
++ AT-Steuer (AT-Teil x 0,1 x 0,19)
++ Agenturware (Öl)
+_____________________________________________________________________________
+= Rechnungsbetrag                                                         EUR
+\end{lstlisting}
+
+\newpage
+
+\subsubsection{Kosten des Lagers}\label{kosten-des-lagers}
+
+\begin{itemize}
+\item
+  Kosten des Lagers
+\item
+  Kennwerte des Lagers
+\end{itemize}
+
+\newpage
+
+\section{Abschreibung}\label{abschreibung}
+
+\begin{itemize}
+\item
+  linear
+\item
+  degressiv: am Anfang schnell abschreiben, Investition ankurbeln
+\item
+  Kombination aus linear und degressiv
+\item
+  Leistung
+\end{itemize}
+
+\textbf{Begriffe}
+
+\begin{itemize}
+\item
+  Anschaffungswert
+\item
+  Buchwert
+\item
+  Nutzungsdauer
+\item
+  Abschreibungsbetrag
+\item
+  Abschreibungssatz
+\item
+  AfA mindert Gewinn, weniger Steuern zahlen
+\item
+  GWG
+\end{itemize}
+
+\textbf{Berechne den Buchwert nach 6 Jahren}
+
+\lstset{language=Python}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+  Einkaufspreis  10.000,00
++ 5%                500,00   // Transport-, Montage und Anschlusskosten
+__________________________
+= AK             10.500,00   // ND: 8J
+
+            Jahr Abschreibung Buchwert
+__________________________________________           
+degressiv 1J 20%     2.100,00 8.400,00 EUR
+          2J 20%     1.680,00 6.720,00 EUR
+          3J 20%     1.344,00 5.376,00 EUR      
+          4J 20%     1.075,20 4.300,80 EUR
+linear    5J         1.075,20 3.225,60 EUR
+          6J         1.075,20 2.150,40 EUR
+\end{lstlisting}
+
+\newpage

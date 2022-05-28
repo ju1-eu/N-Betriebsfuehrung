@@ -1,2 +1,112 @@
 % ju 28-Mai-2022 input-PDFs.txt 
 
+\chapter{PDF}% book, print anpassen
+
+% -------
+\section{01-Umsatzerloese}\label{sec:01-Umsatzerloese}\index{01-Umsatzerloese}
+\includepdf[pages=-]{Tabellen/PDF/01-Umsatzerloese.pdf}
+
+% -------
+\section{02-AT-Steuer}\label{sec:02-AT-Steuer}\index{02-AT-Steuer}
+\includepdf[pages=-]{Tabellen/PDF/02-AT-Steuer.pdf}
+
+% -------
+\section{03-Ersatzteilpreiskalkulation}\label{sec:03-Ersatzteilpreiskalkulation}\index{03-Ersatzteilpreiskalkulation}
+\includepdf[pages=-]{Tabellen/PDF/03-Ersatzteilpreiskalkulation.pdf}
+
+% -------
+\section{U01-Ersatzteilpreiskalkulation-A3+4-Loesung}\label{sec:U01-Ersatzteilpreiskalkulation-A3+4-Loesung}\index{U01-Ersatzteilpreiskalkulation-A3+4-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U01-Ersatzteilpreiskalkulation-A3+4-Loesung.pdf}
+
+% -------
+\section{U01-Ersatzteilpreiskalkulation-KI-HSP-KF}\label{sec:U01-Ersatzteilpreiskalkulation-KI-HSP-KF}\index{U01-Ersatzteilpreiskalkulation-KI-HSP-KF}
+\includepdf[pages=-]{Tabellen/PDF/U01-Ersatzteilpreiskalkulation-KI-HSP-KF.pdf}
+
+% -------
+\section{U02-StVs-WI-KI-Kostenvoranschlag-Loesung}\label{sec:U02-StVs-WI-KI-Kostenvoranschlag-Loesung}\index{U02-StVs-WI-KI-Kostenvoranschlag-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U02-StVs-WI-KI-Kostenvoranschlag-Loesung.pdf}
+
+% -------
+\section{U02-StVs-WI-KI-Kostenvoranschlag}\label{sec:U02-StVs-WI-KI-Kostenvoranschlag}\index{U02-StVs-WI-KI-Kostenvoranschlag}
+\includepdf[pages=-]{Tabellen/PDF/U02-StVs-WI-KI-Kostenvoranschlag.pdf}
+
+% -------
+\section{U03-Kundenrechnung-A1-Loesung}\label{sec:U03-Kundenrechnung-A1-Loesung}\index{U03-Kundenrechnung-A1-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U03-Kundenrechnung-A1-Loesung.pdf}
+
+% -------
+\section{U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI}\label{sec:U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI}\index{U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI}
+\includepdf[pages=-]{Tabellen/PDF/U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI.pdf}
+
+% -------
+\section{U03_Loesung_1-4_Sebalj}\label{sec:U03_Loesung_1-4_Sebalj}\index{U03_Loesung_1-4_Sebalj}
+\includepdf[pages=-]{Tabellen/PDF/U03_Loesung_1-4_Sebalj.pdf}
+
+% -------
+\section{U04-Werkstattabrechnung-Arbeitszeit_1-3_von10}\label{sec:U04-Werkstattabrechnung-Arbeitszeit_1-3_von10}\index{U04-Werkstattabrechnung-Arbeitszeit_1-3_von10}
+\includepdf[pages=-]{Tabellen/PDF/U04-Werkstattabrechnung-Arbeitszeit_1-3_von10.pdf}
+
+% -------
+\section{U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh}\label{sec:U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh}\index{U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh}
+\includepdf[pages=-]{Tabellen/PDF/U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh.pdf}
+
+% -------
+\section{U06-Situationsaufgabe-Fritz-Arbeitsplanung}\label{sec:U06-Situationsaufgabe-Fritz-Arbeitsplanung}\index{U06-Situationsaufgabe-Fritz-Arbeitsplanung}
+\includepdf[pages=-]{Tabellen/PDF/U06-Situationsaufgabe-Fritz-Arbeitsplanung.pdf}
+
+% -------
+\section{U06-Situationsaufgabe-Fritz-Loesung}\label{sec:U06-Situationsaufgabe-Fritz-Loesung}\index{U06-Situationsaufgabe-Fritz-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U06-Situationsaufgabe-Fritz-Loesung.pdf}
+
+% -------
+\section{U06-Situationsaufgabe-Fritz-Rechnung}\label{sec:U06-Situationsaufgabe-Fritz-Rechnung}\index{U06-Situationsaufgabe-Fritz-Rechnung}
+\includepdf[pages=-]{Tabellen/PDF/U06-Situationsaufgabe-Fritz-Rechnung.pdf}
+
+% -------
+\section{U06-Situationsaufgabe-Fritz}\label{sec:U06-Situationsaufgabe-Fritz}\index{U06-Situationsaufgabe-Fritz}
+\includepdf[pages=-]{Tabellen/PDF/U06-Situationsaufgabe-Fritz.pdf}
+
+% -------
+\section{U07-Aufgabe-KV1-Loesung}\label{sec:U07-Aufgabe-KV1-Loesung}\index{U07-Aufgabe-KV1-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U07-Aufgabe-KV1-Loesung.pdf}
+
+% -------
+\section{U07-Aufgabe-KV1-Stauscheibenpoti-AT}\label{sec:U07-Aufgabe-KV1-Stauscheibenpoti-AT}\index{U07-Aufgabe-KV1-Stauscheibenpoti-AT}
+\includepdf[pages=-]{Tabellen/PDF/U07-Aufgabe-KV1-Stauscheibenpoti-AT.pdf}
+
+% -------
+\section{U08-Aufgabe-KV2-HFM}\label{sec:U08-Aufgabe-KV2-HFM}\index{U08-Aufgabe-KV2-HFM}
+\includepdf[pages=-]{Tabellen/PDF/U08-Aufgabe-KV2-HFM.pdf}
+
+% -------
+\section{U08-Aufgabe-KV2-Loesung}\label{sec:U08-Aufgabe-KV2-Loesung}\index{U08-Aufgabe-KV2-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U08-Aufgabe-KV2-Loesung.pdf}
+
+% -------
+\section{U09-Aufgabe-KV3-Loesung}\label{sec:U09-Aufgabe-KV3-Loesung}\index{U09-Aufgabe-KV3-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U09-Aufgabe-KV3-Loesung.pdf}
+
+% -------
+\section{U09-Aufgabe-KV3}\label{sec:U09-Aufgabe-KV3}\index{U09-Aufgabe-KV3}
+\includepdf[pages=-]{Tabellen/PDF/U09-Aufgabe-KV3.pdf}
+
+% -------
+\section{U10-Pruefungsaufgabentraining-Loesung}\label{sec:U10-Pruefungsaufgabentraining-Loesung}\index{U10-Pruefungsaufgabentraining-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U10-Pruefungsaufgabentraining-Loesung.pdf}
+
+% -------
+\section{U10-Pruefungsaufgabentraining}\label{sec:U10-Pruefungsaufgabentraining}\index{U10-Pruefungsaufgabentraining}
+\includepdf[pages=-]{Tabellen/PDF/U10-Pruefungsaufgabentraining.pdf}
+
+% -------
+\section{U12-Aufgabe-Leistungslohnsatz-Loesung}\label{sec:U12-Aufgabe-Leistungslohnsatz-Loesung}\index{U12-Aufgabe-Leistungslohnsatz-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U12-Aufgabe-Leistungslohnsatz-Loesung.pdf}
+
+% -------
+\section{U12-Aufgabe-Leistungslohnsatz}\label{sec:U12-Aufgabe-Leistungslohnsatz}\index{U12-Aufgabe-Leistungslohnsatz}
+\includepdf[pages=-]{Tabellen/PDF/U12-Aufgabe-Leistungslohnsatz.pdf}
+
+% -------
+\section{U13-Kundenblaetter-test-Loesung}\label{sec:U13-Kundenblaetter-test-Loesung}\index{U13-Kundenblaetter-test-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U13-Kundenblaetter-test-Loesung.pdf}
+
