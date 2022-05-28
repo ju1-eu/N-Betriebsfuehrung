@@ -1,0 +1,29 @@
+\documentclass{exam}
+\usepackage{content/osm-exam}
+
+% Personendaten laden
+%\input{content/00_metadata.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\name}{Jan Unger}% anpassen!!!!!
+\newcommand{\thema}{01-FLT-Thema}
+\newcommand{\quelle}{\name}
+\newcommand{\datum}{\today}
+\newcommand{\Thema}{}%nicht Löschen
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%Seite {\thepage} von {\pageref{LastPage}
+
+\begin{document}
+
+  \begin{questions}
+  	\label{page:beginquestions}	  
+  	\input{content/tex/0x_questions.tex}
+	%\clearpage
+  	%\input{content/tex/02_questions.tex}
+  	\label{page:endquestions}
+  	
+  \end{questions}
+
+  \label{page:last}
+\end{document}

@@ -1,0 +1,310 @@
+%ju 27-Mär-22 U03-Kundenrechnung-Kostenvoranschlag-AW-Vs-UR-WI-Loesung.tex
+\textbf{Ü3 - Kundenrechnung - Kostenvoranschlag - AW-VS - UR - WI}
+
+\textbf{Aufgabe 1)}
+
+Kundenrechnung Vgl. Übungsaufgaben / Excel
+>>U03-Kundenrechnung-A1-Loesung.pdf<<
+
+\textbf{Aufgabe 2)}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  AW-Verrechnungssatz und Werkstattindex
+\end{enumerate}
+
+\begin{itemize}
+\item
+  GK/h = WSL x FGKZs / 100 \%
+\item
+  GK/h = 14,75 €/h x 2,80 = 41,30 €/h
+\item
+  Seko/h = WSL + GK/h
+\item
+  Seko/h = 14,75 €/h + 41,30 €/h = 56,05 €/h
+\item
+  Gewinn/h (Werkstatt) = Seko/h x GWZs / 100 \%
+\item
+  Gewinn/h (Werkstatt) = 56,05 €/h x 0,08 = 4,48 €/h
+\item
+  StVs = Seko/h + Gewinn/h
+\item
+  StVs = 56,05 €/h + 4,48 €/h = 60,53 €/h
+\end{itemize}
+
+\textbf{AW-Verrechnungssatz} (in €/AW)
+
+\begin{itemize}
+\item
+  AW-Vs = StVs / WF
+\item
+  AW-Vs = 60,53 €/h / 14 AW/h = 4,32 €/AW
+\end{itemize}
+
+\textbf{Werkstattindex}
+
+\begin{itemize}
+\item
+  WI = StVs / WSL
+\item
+  WI = 60,53 €/h / 14,75 €/h = 4,32
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\item
+  \textbf{Preis der Ersatzteile und AT-Teile}
+\end{enumerate}
+
+\lstset{language=Python}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+Bezugspreis Ersatzteile =  625,00 EUR
+MGK             75 %    =  468,75 EUR
+Seko                    = 1093,75 EUR
+Gewinn (ET)     11 %    =  120,31 EUR
+-------------
+VK Preis ET             = 1214,06 EUR
+\end{lstlisting}
+
+\lstset{language=Python}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+Bezugspreis AT-Teile    =  125,00 EUR
+MGK             75 %    =   93,75 EUR
+Seko                    =  218,75 EUR
+Gewinn (AT)     11 %    =   24,06 EUR
+-------------
+VK Preis AT             =  242,81 EUR
+\end{lstlisting}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\item
+  \textbf{Preis der Fremdarbeit - Lackierung}
+\end{enumerate}
+
+\lstset{language=Python}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+Einstandspreis Lackierung =  575,00 EUR
+Gewinn (Fremd)    12 %    =   69,00 EUR
+-------------
+Lackierung                =  644,00 EUR
+\end{lstlisting}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{3}
+\item
+  \textbf{Gesamtgewinn}
+\end{enumerate}
+
+\begin{itemize}
+\item
+  $Gewinn_{gesamt}$ = (115 AW x Gewinn (Werkstatt) / WF) + Gewinn (ET)
+  + Gewinn (AT) + Gewinn (Fremd)
+\item
+  $Gewinn_{gesamt}$ = (115 AW x 4,48 €/h / 14 AW/h) + 120,31 € + 24,06
+  € + 69 € = 250,17 €
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{4}
+\item
+  \textbf{Umsatzrendite}
+\end{enumerate}
+
+\begin{itemize}
+\item
+  UR = GW x 100 \% / Erlöse
+\item
+  UR = 250,17 € x 100 \% / 2.597,67 € = 9,63 \%
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{5}
+\item
+  \textbf{Kostenvoranschlag}
+\end{enumerate}
+
+\lstset{language=Python}% C, TeX, Bash, Python 
+\begin{lstlisting}[
+	%caption={}, label={code:}%% anpassen
+]
+Lohnarbeiten = 115 AW x 4,32 EUR/AW  =   496,80 EUR
+Ersatzteile                          = 1.214,06 EUR
+AT-Teile                             =   242,81 EUR
+Lackierung                           =   644,00 EUR
+Zwischensumme                        = 2.597,67 EUR
+Mehrwertsteuer                 19 %  =   493,56 EUR
+Mehrwertsteuer für Tauschteile 19 %  =     4,61 EUR
+-------------------
+Rechnungsbetrag                      = 3.095,84 EUR
+\end{lstlisting}
+
+\textbf{Aufgabe 3)}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  \textbf{Fertigungsgemeinkostenzuschlagsatz} (in \%)
+\end{enumerate}
+
+\begin{itemize}
+\item
+  FGKZs = FGK x 100 \% / FL
+\item
+  FGKZs = 197.250,00 x 100 \% / 81.500,00 € = 242,02 \%
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\item
+  \textbf{Gewinnzuschlagsatz} (in \%)
+\end{enumerate}
+
+\begin{itemize}
+\item
+  GW = UE - Seko
+\item
+  GW = 311.250,00 € - 278.750,00 € = 32.500,00 €
+\item
+  Seko = FL + GK
+\item
+  Seko = 81.500,00 € + 197.250,00 € = 278.750,00 €
+\item
+  GWZs = GW x 100 \% / SEKO
+\item
+  GWZs = 32.500,00 € x 100 \% / 278.750,00 € = 11,66 \%
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\item
+  \textbf{Umsatzrendite} (in \%)\\
+\end{enumerate}
+
+\begin{itemize}
+\item
+  UR = GW x 100 \% / UE
+\item
+  UR = 32.500,00 € x 100 \% / 311.250,00 € = 10,44 \%
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{3}
+\item
+  \textbf{Werkstattindex} WI = KI
+\end{enumerate}
+
+\begin{itemize}
+\item
+  KI = Umsatzerlöse / Fertigungslöhne
+\item
+  KI = 311.250,00 € / 81.500,00 € = 3,8190
+\end{itemize}
+
+\textbf{Aufgabe 4)}
+
+LE = Lohnerlös
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\item
+  \textbf{Kostenindex}
+\end{enumerate}
+
+\begin{itemize}
+\item
+  Soll-UE = StVs x LE (in h)
+\item
+  Soll-UE = 58,00 €/h x 6750 h = 391.500,00 €
+\item
+  $FL_{neu}$ = $FL_{bisher}$ + 1,75 \%
+\item
+  $FL_{neu}$ = 99.200,00 € x 1,0175 = 100.936,00 €
+\item
+  $GK_{neu}$ = $GK_{bisher}$ + 6 \%
+\item
+  $GK_{neu}$ = 208.000,00 € x 1,06 = 220.480,00 €
+\item
+  $Seko_{neu}$ = $FL_{neu}$ + GK\_neu
+\item
+  $Seko_{neu}$ = 100.936,00 + 220.480,00 € = 321.416,00 €
+\item
+  $GW_{neu}$ = Soll-UE - Seko\_neu
+\item
+  $GW_{neu}$ = 391.500,00 € - 321.416,00€ = 70.084,00 €
+\item
+  KI = Erlöse / Fertigungslöhne
+\item
+  KI = 391.500,00 € / 100.936,00 € = 3,879
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{1}
+\item
+  \textbf{Werkstattschnittlohn} (in €/h)
+\end{enumerate}
+
+\begin{itemize}
+\item
+  WSL = Fertigungslöhne / LE (in h)
+\item
+  WSL = 100.936,00 € / 6750 h = 14,95 €/h
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{2}
+\item
+  \textbf{Fertigungsgemeinkostenzuschlagsatz} (in \%)
+\end{enumerate}
+
+\begin{itemize}
+\item
+  GKZs = GW x 100 \% / FL
+\item
+  GKZs = 220.480,00 € x 100 \% / 100.936,00 € = 218,44 \%
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{3}
+\item
+  \textbf{Gewinnzuschlagsatz} (in \%)
+\end{enumerate}
+
+\begin{itemize}
+\item
+  GWZs = GW x 100 \% / SEKO
+\item
+  GWZs = 70.084,00 € x 100 \% / 321.416,00 € = 21,80 \%
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi})}
+\setcounter{enumi}{4}
+\item
+  \textbf{Umsatzrendite} (in \%)
+\end{enumerate}
+
+\begin{itemize}
+\item
+  UR = GW x 100 \% / UE
+\item
+  UR = 70.084,00 € x 100 \% / 391.500,00 € = 17,90 \%
+\end{itemize}
