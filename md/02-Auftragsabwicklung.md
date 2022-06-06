@@ -13,14 +13,12 @@ Dozent: Kristijan Sebalj
 EUR &euro;
 Vgl. Tabellenbuch S. 87 [@bell:2021:tabellenbuchKfz].
 Vgl. Fachbuch S. 87 [@heiser:2017:betriebsfuhrung].
+Vgl. Auftragsabwicklung S. 149-158 ([@heiser:2017:betriebsfuhrung]).
 #
 ##
 ju 28-5-22 Auftragsabwicklung
 +------------------------------>
 
-Vgl. Auftragsabwicklung Fachbuch S. 149-158 ([@heiser:2017:betriebsfuhrung]).
-
-\newpage
 # Arbeitsplanung - Auftragsannahme bis Fahrzeugrückgabe
 
 1. **Terminvereinbarung** Auftragsannahme

@@ -1,4 +1,4 @@
-% ju 06-Jun-22
+% ju 14-5-22 01-N-Keywords-Thema.tex
 \documentclass[a4paper,12pt,fleqn,parskip=half]{scrartcl}
 \include{content/praeambel-artikel}   
 
@@ -22,7 +22,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\name}{Jan Unger}% anpassen!!!!!
-\newcommand{\thema}{U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung}
+\newcommand{\thema}{Thema}% anpassen!!!!!
 \newcommand{\quelle}{\name}
 \newcommand{\website}{https://bw-ju.de/}
 \newcommand{\github}{https://github.com/ju1-eu}
@@ -30,7 +30,6 @@
 
 \ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
 \ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
-
 \ifoot{\textbf{Thema:} \thema}  %{Fußzeile  innen}
 \ofoot{Seite {\thepage} von {\pageref{LastPage}}}%{Fußzeile  außen}
 
@@ -46,9 +45,8 @@
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{center}
-		\textbf{\Large \thema}%14pt
+		\textbf{\Large \thema}\\%14pt
 		\vspace{0.8em}
-		
 		%\datum	
 		%\qrcode[hyperlink,level=Q,version=2,height=1cm]{\website}
 		\qrcode[hyperlink,level=Q,version=2,height=1cm]{\github}
@@ -61,13 +59,15 @@
 		\item Begriff 
 	\end{itemize}
 
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	% anpassen
-	%\input{content/tex/neu}
-	\input{content/tex/U05-Gesamtarbeitszeit-StVs-AW-Vs-Flh-Loesung.tex}
+	\input{content/tex/01-Keywords-Thema.tex}
+	Tabellenbuch (\textcite{bell:2021:tabellenbuchKfz} S. 281)
 
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\emph{Website} \footnote{\url{\website}} 	
+	
+	%\input{Tabellen/PDFs.tex}
+	%\input{content/tex/.tex}
+
     % Bibliographie
-    \printbibliography[category=cited]
+    \printbibliography
 \end{document}

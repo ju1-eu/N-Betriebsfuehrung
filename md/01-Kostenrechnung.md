@@ -38,7 +38,7 @@ vs.
 
 # Vollkostenrechnung
 
-Vgl. Kostenrechnung Fachbuch S. 79-102 ([@heiser:2017:betriebsfuhrung]).
+Vgl. Kostenrechnung, S. 79-102 ([@heiser:2017:betriebsfuhrung]).
 
 ## Kosten der Werkstatt
 
@@ -72,7 +72,7 @@ Vgl. Kostenrechnung Fachbuch S. 79-102 ([@heiser:2017:betriebsfuhrung]).
 - Lohn+Gehalt (unproduktiv)
 - Reisekosten
 - Kfz (geschäftlich)
-- Afa
+- AfA
 - Eigenkapital (EK \% Zins)
 - kalkulatorische Pacht
 - Meisterlohn (unproduktiv)
@@ -82,7 +82,7 @@ Vgl. Kostenrechnung Fachbuch S. 79-102 ([@heiser:2017:betriebsfuhrung]).
    - $\boxed{\text{GKZs} = \frac{GK \cdot 100}{FL}}$  
 
 1. **Kalkulatorische Kosten** Gemeinkosten, die keine Ausgaben verursachen; aufwandsfremde Kosten
-   - *Beispiel:* kalk.-Miete, kalk.-Abschreibungen, kalk.-Zinsen, kalk.-U-Lohn, kalk.-Wagnisse
+   - *Beispiel:* Kalk.-Miete, Kalk.-Abschreibungen, Kalk.-Zinsen, Kalk.-U-Lohn, Kalk.-Wagnisse
 
 1. **Hilfslöhne** entstehen bei Werkstattaufträgen (W-Aufträge)
    - *Beispiel:* Leerlauf, Nacharbeiten, Reparatur von Werkstattfahrzeuge, Urlaub, Feiertage, Wartezeiten
@@ -134,14 +134,14 @@ $= 100~\%$
 
 2) **Leistungslohn** Lohn für die erbrachte Leistung
    - **AWLs** Arbeitswertlohnsatz
-   - **ZELs** Zeiteinheitenlohnsatz
+   - **ZELs** Zeiteinheitslohnsatz
    - **Soll-AW** Vorgabe, wie viele AW muss ich in einer Stunde machen?
    - **Ist-AW** tatsächlich erbrachte Leistung
    - **Mehr-AW** Mehrleistung in AW $\boxed{\text{AW} = \text{Ist-AW} - \text{Soll-AW}}$
-   - **Vorgabezeiten** Grundlage für Leistungslohn
+   - **Vorgabezeit** Grundlage für Leistungslohn
       - **ZE** Zeiteinheit (in Min.) 
       - (StVs / 60 = &euro;/ZE x Min. = Preis (&euro;))
-      - **AW** Arbeitswert (in Min.) Richtzeiten, Vorgabezeiten
+      - **AW** Arbeitswert (in Min.) Richtzeiten, Vorgabezeit
       - **WF** Werkstattfaktor $\to$ wie viele AW/ZE in einer Stunde? (Soll-Leistung, Mindestleistung) (12 AW/h = $\frac{60}{12}$ alle 5 Min. 1 AW)
       - **Leistungsfaktor** (LF) Ist-Leistung
          - tatsächlich erbrachte Leistung je Stunde
@@ -384,4 +384,3 @@ linear    5J         1.075,20 3.225,60 EUR
           6J         1.075,20 2.150,40 EUR
 ```
 
-\newpage

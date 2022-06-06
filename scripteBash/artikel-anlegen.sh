@@ -88,7 +88,7 @@ T2="
 T3="
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Bibliographie
-    \printbibliography
+    \printbibliography[category=cited]
 \end{document}"
 
 # tex/

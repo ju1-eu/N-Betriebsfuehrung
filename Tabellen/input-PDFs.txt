@@ -1,4 +1,4 @@
-% ju 28-Mai-2022 input-PDFs.txt 
+% ju 06-Jun-2022 input-PDFs.txt 
 
 \chapter{PDF}% book, print anpassen
 
@@ -13,6 +13,18 @@
 % -------
 \section{03-Ersatzteilpreiskalkulation}\label{sec:03-Ersatzteilpreiskalkulation}\index{03-Ersatzteilpreiskalkulation}
 \includepdf[pages=-]{Tabellen/PDF/03-Ersatzteilpreiskalkulation.pdf}
+
+% -------
+\section{B-Keywords-01-Kostenrechnung}\label{sec:B-Keywords-01-Kostenrechnung}\index{B-Keywords-01-Kostenrechnung}
+\includepdf[pages=-]{Tabellen/PDF/B-Keywords-01-Kostenrechnung.pdf}
+
+% -------
+\section{B-Keywords-02-Auftragsabwicklung}\label{sec:B-Keywords-02-Auftragsabwicklung}\index{B-Keywords-02-Auftragsabwicklung}
+\includepdf[pages=-]{Tabellen/PDF/B-Keywords-02-Auftragsabwicklung.pdf}
+
+% -------
+\section{B-Keywords-03-Betriebsfuehrung}\label{sec:B-Keywords-03-Betriebsfuehrung}\index{B-Keywords-03-Betriebsfuehrung}
+\includepdf[pages=-]{Tabellen/PDF/B-Keywords-03-Betriebsfuehrung.pdf}
 
 % -------
 \section{U01-Ersatzteilpreiskalkulation-A3+4-Loesung}\label{sec:U01-Ersatzteilpreiskalkulation-A3+4-Loesung}\index{U01-Ersatzteilpreiskalkulation-A3+4-Loesung}
@@ -99,6 +111,10 @@
 \includepdf[pages=-]{Tabellen/PDF/U10-Pruefungsaufgabentraining.pdf}
 
 % -------
+\section{U11-Aufgabe-Afa}\label{sec:U11-Aufgabe-Afa}\index{U11-Aufgabe-Afa}
+\includepdf[pages=-]{Tabellen/PDF/U11-Aufgabe-Afa.pdf}
+
+% -------
 \section{U12-Aufgabe-Leistungslohnsatz-Loesung}\label{sec:U12-Aufgabe-Leistungslohnsatz-Loesung}\index{U12-Aufgabe-Leistungslohnsatz-Loesung}
 \includepdf[pages=-]{Tabellen/PDF/U12-Aufgabe-Leistungslohnsatz-Loesung.pdf}
 
@@ -109,4 +125,20 @@
 % -------
 \section{U13-Kundenblaetter-test-Loesung}\label{sec:U13-Kundenblaetter-test-Loesung}\index{U13-Kundenblaetter-test-Loesung}
 \includepdf[pages=-]{Tabellen/PDF/U13-Kundenblaetter-test-Loesung.pdf}
+
+% -------
+\section{U13-Kundenblaetter-test}\label{sec:U13-Kundenblaetter-test}\index{U13-Kundenblaetter-test}
+\includepdf[pages=-]{Tabellen/PDF/U13-Kundenblaetter-test.pdf}
+
+% -------
+\section{U14-KV-A43-44}\label{sec:U14-KV-A43-44}\index{U14-KV-A43-44}
+\includepdf[pages=-]{Tabellen/PDF/U14-KV-A43-44.pdf}
+
+% -------
+\section{U15-Betriebsgewinn-Auslastung-Bruttoertrag-A9-11}\label{sec:U15-Betriebsgewinn-Auslastung-Bruttoertrag-A9-11}\index{U15-Betriebsgewinn-Auslastung-Bruttoertrag-A9-11}
+\includepdf[pages=-]{Tabellen/PDF/U15-Betriebsgewinn-Auslastung-Bruttoertrag-A9-11.pdf}
+
+% -------
+\section{U16-Lagerkostenberechnung}\label{sec:U16-Lagerkostenberechnung}\index{U16-Lagerkostenberechnung}
+\includepdf[pages=-]{Tabellen/PDF/U16-Lagerkostenberechnung.pdf}
 

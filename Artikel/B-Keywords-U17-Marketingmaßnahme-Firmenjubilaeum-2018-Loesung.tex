@@ -1,4 +1,4 @@
-% ju 14-5-22 01-N-Keywords-Thema.tex
+% ju 06-Jun-22
 \documentclass[a4paper,12pt,fleqn,parskip=half]{scrartcl}
 \include{content/praeambel-artikel}   
 
@@ -22,7 +22,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\name}{Jan Unger}% anpassen!!!!!
-\newcommand{\thema}{Thema}% anpassen!!!!!
+\newcommand{\thema}{U17-Marketingmaßnahme-Firmenjubilaeum-2018-Loesung}
 \newcommand{\quelle}{\name}
 \newcommand{\website}{https://bw-ju.de/}
 \newcommand{\github}{https://github.com/ju1-eu}
@@ -30,6 +30,7 @@
 
 \ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
 \ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
+
 \ifoot{\textbf{Thema:} \thema}  %{Fußzeile  innen}
 \ofoot{Seite {\thepage} von {\pageref{LastPage}}}%{Fußzeile  außen}
 
@@ -45,11 +46,12 @@
 
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\begin{center}
-		\textbf{\Large \thema}\\%14pt
+		\textbf{\Large \thema}%14pt
 		\vspace{0.8em}
+		
 		%\datum	
-		\qrcode[hyperlink,level=Q,version=2,height=1cm]{\website}
-		%\qrcode[hyperlink,level=Q,version=2,height=1cm]{\github}
+		%\qrcode[hyperlink,level=Q,version=2,height=1cm]{\website}
+		\qrcode[hyperlink,level=Q,version=2,height=1cm]{\github}
 	\end{center}
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -59,22 +61,13 @@
 		\item Begriff 
 	\end{itemize}
 
+    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-	\input{content/tex/01-Keywords-Thema.tex}
-	Tabellenbuch (\textcite{bell:2021:tabellenbuchKfz} S. 281)
+	% anpassen
+	%\input{content/tex/neu}
+	\input{content/tex/U17-Marketingmaßnahme-Firmenjubilaeum-2018-Loesung.tex}
 
-	\emph{Website} \footnote{\url{\website}} 	
-	
-	Arbeitszeitermittlung (\autoref{fig:Arbeitszeitermittlung}).
-	\begin{figure}[!h]% hier: !hb
-		\centering
-		\includegraphics[width=.75\textwidth]{images/Skizze/Arbeitszeitermittlung.pdf}
-		\caption{Arbeitszeitermittlung}\label{fig:Arbeitszeitermittlung}%% anpassen
-	\end{figure}
-	
-	%\input{Tabellen/PDFs.tex}
-	%\input{content/tex/.tex}
-
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     % Bibliographie
-    \printbibliography
+    \printbibliography[category=cited]
 \end{document}
