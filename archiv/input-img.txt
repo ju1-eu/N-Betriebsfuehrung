@@ -1,7 +1,7 @@
 <!-----------------------------------------------
 Alle Abbildungen 'images/' in Markdown speichern.
 	* 'archiv/input-img.txt'
-ju 06-Jun-2022 input-img.txt
+ju 17-Jul-2022 input-img.txt
 ------------------------------------------------->
 
 
@@ -13,11 +13,6 @@ ju 06-Jun-2022 input-img.txt
 <!--titelbild vgl. abb.-->
 
 ![titelbild](images/titelbild.pdf){width=60%}
-
-
-<!--01_Verkaufskalkulation_Skizze vgl. abb.-->
-
-![01_Verkaufskalkulation_Skizze](images/Skizze/01_Verkaufskalkulation_Skizze.pdf){width=60%}
 
 
 <!--02_Umsatzerloese_Skizze vgl. abb.-->

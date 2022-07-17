@@ -16,13 +16,13 @@ Vgl. Fachbuch S. 87 [@heiser:2017:betriebsfuhrung].
 Vgl. Auftragsabwicklung S. 149-158 ([@heiser:2017:betriebsfuhrung]).
 #
 ##
-ju 28-5-22 Auftragsabwicklung
+ju 16-7-22 Auftragsabwicklung
 +------------------------------>
 
 # Arbeitsplanung - Auftragsannahme bis Fahrzeugrückgabe
 
 1. **Terminvereinbarung** Auftragsannahme
-   - Termin mit Kunden vereinbaren, Terminvorbereitung
+   - Termin mit Kunden vereinbaren
 
 2. **Terminvorbereitung** 
    - KD-Berater plant Fahrzeugdurchsicht auf Basis Fahrzeughistorie
@@ -91,6 +91,8 @@ ju 28-5-22 Auftragsabwicklung
 
 3. **Werkstattaufträge** (W-Aufträge) *Beispiel:* Halle säubern
    - $\to$ unproduktive Werkstattleistungen (Hilfslöhne, Gemeinkosten)
+   - Sie werden den Gemeinkosten zugeschlagen, da die Werkstatt keine direkten Erlöse für W-Aufträge bekommt. 
+   - Die dabei entstandenen Lohnkosten nennt man Hilfslöhne. 
 
 4. **Garantie- und Kulanzanträge** (G+K-Aufträge) *Beispiel:* Kulanz-, Garantiearbeiten
    - $\to$ produktive Löhne
@@ -100,13 +102,17 @@ ju 28-5-22 Auftragsabwicklung
 
 **W-Aufträge** (Werkstattaufträge)
 
-- W1 = Allgemeine Werkstattarbeiten 
-- W2 = Leerlaufstunden und Wartezeit 
-- W3 = Reparaturen an Werkstatt eigenen Fahrzeugen 
-- W4 = Nacharbeit, eigene Gewährleistung und Kulanz 
-- W5 = Urlaub, Feiertage 
-- W6 = Schulung 
-- W7 = Krankheit
+Sie werden den Gemeinkosten zugeschlagen, da die Werkstatt keine direkten Erlöse für W-Aufträge bekommt. Die dabei entstandenen Lohnkosten nennt man Hilfslöhne. 
+
+*Beispiele:* 
+
+- Allgemeine Werkstattarbeiten 
+- Leerlaufstunden und Wartezeit 
+- Reparaturen an Werkstatt eigenen Fahrzeugen 
+- Nacharbeit, eigene Gewährleistung und Kulanz 
+- Urlaub, Feiertage 
+- Schulung 
+- Lohnfortzahlungen im Krankheitsfall 
 
 **Was sind produktive Löhne?**
 
@@ -120,6 +126,29 @@ Vgl. Fachbuch S. 172 ([@heiser:2017:betriebsfuhrung]).
 **Was sind unproduktive Löhne?**
 
 Werkstattaufträge
+
+**Reperatur oder AT-Teil austauschen**
+
+1. Preisunterschied zwischen Instandsetzung und Austauschteil. Was ist preiswerter?
+1. Ist eine Zeitwert gerechte Instandsetzung möglich?
+1. Art des Schadens feststellen
+1. Teileverfügbarkeit prüfen
+1. Was möchte der Kunde?
+1. Instandsetzungsfähigkeit des Bauteils feststellen
+1. Ist noch Garantie vorhanden?
+
+Ersatzteile [^1] 
+
+[^1]: <https://hc-cargo.de/>
+
+**Reparaturaufwandes ermitteln**
+
+1. Kostenvoranschlag
+1. Dialogannahme
+1. Gutachten
+1. Wartungsplan
+1. AW-Vorgabezeiten
+1. Herstellervorgaben
 
 \newpage
 # Reklamation und Umtausch
@@ -173,7 +202,7 @@ _____________________________________________________________
 = Arbeitstage pro Jahr (261 - Feiertage)             252 Tage
 ```
 
-**Werktag** (Mo. - Sa.)
+**Werktag** (Mo. -- Sa.)
 
 \newpage
 # Serviceberater - Kundendienstberater - Dialogannahme

@@ -14,18 +14,18 @@ ju 15-5-22
 
 **Ü11 - Abschreibung**
 
-- linear 
-- degressiv: am Anfang schnell abschreiben, Investition ankurbeln 
+- linear
+- degressiv: am Anfang schnell abschreiben, Investition ankurbeln
 - Kombination aus linear und degressiv
 
 **Begriffe**
 
-- Anschaffungswert 
-- Buchwert 
-- Nutzungsdauer 
-- Abschreibungsbetrag 
-- Abschreibungssatz 
-- AfA mindert Gewinn, weniger Steuern zahlen 
+- Anschaffungswert
+- Buchwert
+- Nutzungsdauer
+- Abschreibungsbetrag
+- Abschreibungssatz
+- AfA mindert Gewinn, weniger Steuern zahlen
 - GWG
 
 **Berechne den Buchwert nach 6 Jahren**

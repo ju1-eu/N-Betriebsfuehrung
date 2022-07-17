@@ -15,7 +15,7 @@ Vgl. Tabellenbuch S. 87 [@bell:2021:tabellenbuchKfz].
 Vgl. Fachbuch S. 87 [@heiser:2017:betriebsfuhrung].
 #
 ###
-ju 6-6-22 Betriebsführung und Kostenrechnen
+ju 9-7-22 Betriebsführung und Kostenrechnen
 +------------------------------>
 
 # Betriebsorganisation
@@ -69,7 +69,7 @@ Ein Unternehmen ist auf die Optimierung des Gewinns ausgerichtet. Dies wird erre
    - Kulanzregelungen
    - Einhaltung von Terminen
    - Qualität der Beratung
-   - Umgang mit Reklamationen an
+   - Umgang mit Reklamationen
 
 1. **Ruf des Autohauses** (Reputationsqualität) 
    - Guter Ruf, Kompetenz
@@ -92,6 +92,12 @@ Ein Unternehmen ist auf die Optimierung des Gewinns ausgerichtet. Dies wird erre
 - Dienstleistungsangebote: Verkauf, Wartung
 
 Bestandskunden halten vs. Neukunden bewerben kostet 5 -- 6x mehr
+
+**kundenorientiertes Qualitätsmanagement**
+
+Die Zufriedenheit des Kunden spiegelt die Qualität des Produktes bzw. der Leistung wider.
+Deshalb sollte man die Kundenansprüche genau kennen und in den Vordergrund des QM-Systems stellen.
+
 
 \newpage
 **Kundenarten**
@@ -121,7 +127,7 @@ Bestandskunden halten vs. Neukunden bewerben kostet 5 -- 6x mehr
 \newpage
 # Marketing
 
-Vgl. Marketing S. 142 [@heiser:2017:betriebsfuhrung].
+Vgl. Marketing S. 142 ([@heiser:2017:betriebsfuhrung]).
 
 $\to$ *Ziel:* verbesserte Qualität, Erhöhen der Marktanteile, Gewinnen neuer Kunden, Verbesserung des Images
 
@@ -237,18 +243,18 @@ Ein Unternehmen entwirft also eine Strategie, welches Produkt und zu welchem Pre
 
 **AIDA** Modell zeigt die vier Stufen, die ein Konsument durchläuft, bevor er sich für den Kauf eines Produkts entscheidet.
 
-1. **A Attention** -- Aufmerksamkeit erzeugen
+1. **(A) Attention** -- Aufmerksamkeit erzeugen
    - Werbung hat die Aufgabe, die Aufmerksamkeit der gewünschten Zielgruppe zu gewinnen. 
    - durch auffällige Farben, einprägsame Werbesprüche oder Sonderrabatte 
    - Beispiel: Nachhaltige Sneaker um 70 \% reduziert.
-1. **I Interest** -- Interesse wecken
+1. **(I) Interest** -- Interesse wecken
    - So kann sich das Produkt langfristig im Gedächtnis deiner Kunden verankern.
    - Produktbroschüren, Flyer oder Videoclips, die Detailinformationen liefern 
    - Beispiel: verschiedene Arten von nachhaltigen Sneakern in unterschiedlichen Farben, Größen und Modellen zu 70 \% reduziert sind
-1. **D Desire** -- Verlangen, Wunsch auslösen
+1. **(D) Desire** -- Verlangen, Wunsch auslösen
    - durch Marketing und emotionale oder rationale Werbebotschaften erreichen.
    - Beispiel: Deine Sneaker eignen sich für Städtereisen als auch für sportliche Aktivitäten. Gleichzeitig sind sie langlebig, sehen gut aus und helfen der Umwelt. Einen besseren Freizeitschuh kann man für den Preis nirgendwo finden!
-1. **A Action** -- Handlung, Kauf
+1. **(A) Action** -- Handlung, Kauf
    - mit der sogenannten Call-to-Action (Handlungsaufforderung).
    - durch einen Kauf-Button am Ende einer Landingpage im Internet oder den Verweis zur Bestellhotline deines Produkts erreichen. 
    - Beispiel: Button mit Aufforderung: Jetzt direkt zuschlagen!

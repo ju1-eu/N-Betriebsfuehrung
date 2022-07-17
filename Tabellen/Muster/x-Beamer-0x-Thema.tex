@@ -1,6 +1,6 @@
-% ju 23-Jul-21
-\documentclass[a4paper,16pt,fleqn,parskip=half]{scrartcl}% a4paper, 1920x1080, 3.840x2.160, 4.096x2.160
-\include{content/praeambel-beamer}% Pakete  
+% ju 7-7-22
+\documentclass[a4paper,16pt,fleqn,parskip=half]{scrartcl}
+\include{content/praeambel-beamer}
 
 %\usepackage[left=2cm,right=2cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
 %\usepackage[left=4cm,right=2cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
@@ -16,7 +16,7 @@
 \definecolor{grau2}{cmyk}{0,0,0,0.1}        % 0,0,0,40
 \definecolor{blau}{cmyk}{0.93,0.66,0,0.21}% 
 
-%% Kapitelueberschriften farbig
+%% Kapitelüberschriften farbig
 \usepackage{sectsty}
 \sectionfont{\color{blau5}}
 \subsectionfont{\color{blau5}}
@@ -27,7 +27,7 @@
 \bibliography{content/literatur-sport}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\name}{Jan Unger}% anpassen!!!!!
+\newcommand{\name}{Jan Unger}
 \newcommand{\thema}{Beamer}% anpassen!!!!!
 \newcommand{\quelle}{\name}
 \newcommand{\website}{https://bw-ju.de/}
@@ -44,10 +44,6 @@
 \date{\today}
 
 \begin{document}
-
-% titel
-%\maketitle	
-% oder
 \begin{titlepage}
 \thispagestyle{empty}
     % background picture
@@ -63,16 +59,16 @@
     \color{white} %\rule[0.3cm]{\linewidth}{3pt}	\par
     \huge \textbf{Thema: \thema}
     \vspace{0.1cm}
-    \large \par \today %\name
+    \large \par Version: \today %\name
 	\setcounter{page}{1}
 \end{titlepage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\input{content/tex/01-beamer-Thema}
+	\input{content/tex/0x-beamer-Thema}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\clearpage
-\printbibliography
+	\clearpage
+    \printbibliography[category=cited]
 \end{document}

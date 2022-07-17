@@ -1,9 +1,7 @@
-% ju 13-5-22 Moderator-Karten-Vorlage.tex
+% ju 13-5-22 x-Moderator-Karten-0x-Thema.tex
 \documentclass[a5paper,17pt,fleqn,parskip=half]{scrartcl}
 \include{content/praeambel-artikel}  
 
-%\usepackage[left=2cm,right=1cm,top=1cm,bottom=1cm,includeheadfoot]{geometry}
-%\usepackage[left=4cm,right=2cm,top=1cm, bottom=1cm,includeheadfoot]{geometry}
 \usepackage[landscape=true,left=6cm,right=1cm,top=1cm,bottom=0.5cm,includefoot]{geometry}%quer
 
 % eigene Farbe definieren
@@ -14,22 +12,14 @@
 \definecolor{grau2}{cmyk}{0,0,0,0.1}        % 0,0,0,40
 \definecolor{blau}{cmyk}{0.93,0.66,0,0.21}% 
 
-% Literatur
-\bibliography{content/literatur}
-\bibliography{content/literatur-kfz}
-\bibliography{content/literatur-sport}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newcommand{\name}{Jan Unger}% anpassen!!!!!
-\newcommand{\thema}{Lerntools}% anpassen!!!!!
+\newcommand{\name}{Jan Unger}
+\newcommand{\thema}{Thema}% anpassen!!!!!
 \newcommand{\quelle}{\name}
 \newcommand{\website}{https://bw-ju.de/}
 \newcommand{\github}{https://github.com/ju1-eu}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%\ihead{\textbf{Quelle:} \quelle}%{Kopfzeile innen}
-%\ohead{\textbf{Datum:} \today}  %{Kopfzeile außen}
-%\ifoot{\textbf{Thema:} \thema}  %{Fußzeile  innen}
 \ofoot{Seite {\thepage} von {\pageref{LastPage}}}%{Fußzeile  außen}
 
 \title{\thema}
@@ -37,19 +27,7 @@
 \date{\today}
 
 \begin{document}
-	%\thispagestyle{empty}
-	%\maketitle
-	%\newpage
-	%\setcounter{page}{1}
-
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%
-	% \textcolor{rot5}{Folie 1}
-	% \textbf{Fett}
-	% \vspace{1em}%Abstand
-	%
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	\subsection*{\textcolor{rot5}{Folie 1}}
 
 	( Sehr geehrte Damen und Herren, )
@@ -82,9 +60,5 @@
 
 	\vspace{1em}%Abstand
 	Vielen Dank.
-
-	%\input{content/tex/.tex}
-
-    % Bibliographie
-    \printbibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \end{document}

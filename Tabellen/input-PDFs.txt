@@ -1,4 +1,4 @@
-% ju 06-Jun-2022 input-PDFs.txt 
+% ju 17-Jul-2022 input-PDFs.txt 
 
 \chapter{PDF}% book, print anpassen
 
@@ -141,4 +141,8 @@
 % -------
 \section{U16-Lagerkostenberechnung}\label{sec:U16-Lagerkostenberechnung}\index{U16-Lagerkostenberechnung}
 \includepdf[pages=-]{Tabellen/PDF/U16-Lagerkostenberechnung.pdf}
+
+% -------
+\section{U17-Marketingmaßnahme-Firmenjubilaeum-2018-Loesung}\label{sec:U17-Marketingmaßnahme-Firmenjubilaeum-2018-Loesung}\index{U17-Marketingmaßnahme-Firmenjubilaeum-2018-Loesung}
+\includepdf[pages=-]{Tabellen/PDF/U17-Marketingmaßnahme-Firmenjubilaeum-2018-Loesung.pdf}
 
